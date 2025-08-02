@@ -39,9 +39,9 @@ const Hero = () => {
             alt="Happy Student"
           />
           
-          <div className="absolute w-44 h-14 bg-white rounded-lg left-4 top-4 p-2">
+          <div className="absolute  w-44 h-14 bg-white rounded-2xl left-20 top-[-5px] p-2">
             <div className="flex items-center space-x-3 h-full">
-              <img
+              <img 
                 src={Date}
                 className="w-10 h-10"
                 alt="Calendar"
