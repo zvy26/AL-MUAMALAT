@@ -1,10 +1,10 @@
 import React from 'react'
-import Finance from '../assets/svg/Services/Finance.svg'
-import Relations from '../assets/svg/Services/Relations.svg'
-import Education from '../assets/svg/Services/Education.svg'
-import Banks from '../assets/svg/Services/Banks.svg'
-import Market from '../assets/svg/Services/Market.svg'
-import Audit from '../assets/svg/Services/Audit.svg'
+import Finance from '../../../assets/svg/Services/Finance.svg'
+import Relations from '../../../assets/svg/Services/Relations.svg'
+import Education from '../../../assets/svg/Services/Education.svg'
+import Banks from '../../../assets/svg/Services/Banks.svg'
+import Market from '../../../assets/svg/Services/Market.svg'
+import Audit from '../../../assets/svg/Services/Audit.svg'
 
 const Services = () => {
   const services = [

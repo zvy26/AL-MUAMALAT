@@ -3,6 +3,8 @@ import { ChevronDown, Menu, X } from "lucide-react"
 import MainIcon from "../assets/svg/Navbar/MainIcon.svg"
 import UnitedKingdom from "../assets/svg/Navbar/UnitedKingdom.svg"
 import Uzb from "../assets/images/Uzb.png"
+import Russian from '../assets/images/Russian.png'
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -13,6 +15,7 @@ const Navbar = () => {
   const languages = [
     { code: "ENG", flag: UnitedKingdom, name: "English" },
     { code: "UZB", flag: Uzb, name: "Uzbek" },
+    { code: "RUS", flag: Russian, name: "Russian" },
   ]
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
@@ -22,7 +25,7 @@ const Navbar = () => {
   const selectLanguage = (language) => {
     setSelectedLanguage(language)
     setIsLanguageOpen(false)
-  }
+  }   
 
   return (
     <div>
@@ -51,30 +54,30 @@ const Navbar = () => {
                 {isProgramsOpen && (
                   <div className="absolute top-full left-0 mt-2 w-60 bg-white rounded-md shadow-lg border border-gray-500">
                     <div className="divide-y divide-gray-400">
-                      <a
-                        href="#"
+                      <Link
+                        to="/InternationalPrograms"
                         className="block px-4 py-2 text-sm text-gray-700 hover:text-teal-600 whitespace-nowrap"
                       >
                         International educational programs
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        to="/SpecializedCourses"
                         className="block px-4 py-2 text-sm text-gray-700 hover:text-teal-600 whitespace-nowrap"
                       >
                         Specialized courses
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        to="/IslamicFinance"
                         className="block px-4 py-2 text-sm text-gray-700 hover:text-teal-600 whitespace-nowrap"
                       >
                         Islamic Finance Literacy Course
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        to="/Certification"
                         className="block px-4 py-2 text-sm text-gray-700 hover:text-teal-600 whitespace-nowrap"
                       >
                         Certification program
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 )}
@@ -83,9 +86,9 @@ const Navbar = () => {
               <a href="#" className="text-gray-700 hover:text-teal-600 transition-colors">
                 Finance tools
               </a>
-              <a href="#" className="text-gray-700 hover:text-teal-600 transition-colors">
-                Contact
-              </a>
+              <Link
+              to="/contact" className="text-gray-700 hover:text-teal-600 transition-colors">Contact
+             </Link>
             </div>
 
             <div className="flex items-center space-x-10">
@@ -145,14 +148,14 @@ const Navbar = () => {
 
           {isMenuOpen && (
             <div className="md:hidden border-t bg-white">
-              <div className="py-2 space-y-1">
-                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">
+              <div className="py-2 space-y-1 ">
+                <a href="#" className="block px-4 py-2  text-gray-700 hover:bg-gray-50">
                   Home
                 </a>
-                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">
+                <a href="#" className="block px-4 py-2  text-gray-700 hover:bg-gray-50">
                   Programs
                 </a>
-                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">
+                <a href="#" className="block px-4 py-2  text-gray-700 hover:bg-gray-50">
                   Finance tools
                 </a>
                 <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">

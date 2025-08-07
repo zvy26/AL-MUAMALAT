@@ -1,9 +1,9 @@
 import React from 'react'
-import Stripe from '../assets/svg/Partners/Stripe.svg'
-import American from '../assets/svg/Partners/American.svg'
-import Union from '../assets/svg/Partners/Union.svg'
-import Klarna from '../assets/svg/Partners/Klarna.svg'
-import Skrill from '../assets/svg/Partners/Skrill.svg'
+import Stripe from '../../../assets/svg/Partners/Stripe.svg'
+import American from '../../../assets/svg/Partners/American.svg'
+import Union from '../../../assets/svg/Partners/Union.svg'
+import Klarna from '../../../assets/svg/Partners/Klarna.svg'
+import Skrill from '../../../assets/svg/Partners/Skrill.svg'
 
 const Partners = () => {
   const partners = [

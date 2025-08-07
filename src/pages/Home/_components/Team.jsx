@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { Mail, Instagram, Facebook, Twitter } from 'lucide-react'
-import Expert1 from '../assets/images/Expert1.png'
-import Expert2 from '../assets/images/Expert2.png'
-import Expert3 from '../assets/images/Expert3.png'
+import Expert1 from '../../../assets/images/Expert1.png'
+import Expert2 from '../../../assets/images/Expert2.png'
+import Expert3 from '../../../assets/images/Expert3.png'
 
 const Team = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

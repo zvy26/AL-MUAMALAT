@@ -1,7 +1,7 @@
 import { useReducer, useState } from "react"
 import { User, Phone, Check, Send, ChevronDown } from "lucide-react"
-import Uzb from "../assets/images/Uzb.png"
-import UnitedKingdom from "../assets/svg/Navbar/UnitedKingdom.svg"
+import Uzb from "../../../assets/images/Uzb.png"
+import UnitedKingdom from "../../../assets/svg/Navbar/UnitedKingdom.svg"
 
 const formReducer = (state, action) => {
   switch (action.type) {

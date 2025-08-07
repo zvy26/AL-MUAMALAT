@@ -1,5 +1,5 @@
 import React from 'react';
-import Feedback from "../assets/images/Feedback.png";
+import Feedback from "../../../assets/images/Feedback.png";
 
 const Testimonial = () => {
   const testimonialData = [

@@ -1,8 +1,8 @@
 import React from 'react';
 import { ChevronLeft, ChevronRight, Play } from 'lucide-react';
-import Woman from '../assets/images/Woman.png';
-import Men from '../assets/images/Men.png';
-import BookMan from '../assets/images/BookMan.png';
+import Woman from '../../../assets/images/Woman.png';
+import Men from '../../../assets/images/Men.png';
+import BookMan from '../../../assets/images/BookMan.png';
 
 const Media = () => {
   const cards = [

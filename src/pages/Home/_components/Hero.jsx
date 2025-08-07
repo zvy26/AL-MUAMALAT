@@ -1,7 +1,7 @@
 import React from 'react';
-import HeroImg from '../assets/images/HeroImg.png';
-import Date from '../assets/images/Date.jpg';
-import Banner from '../assets/images/Banner.png';
+import HeroImg from '../../../assets/images/HeroImg.png';
+import Date from '../../../assets/images/Date.jpg';
+import Banner from '../../../assets/images/Banner.png';
 
 const Hero = () => {
   return (

@@ -1,31 +1,79 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './pages/Hero'
-import Services from './pages/Services'
-import Team from './pages/Team'
-import Partners from './pages/Partners'
-import Media from './pages/Media'
-import Testimonial from './pages/Testimonial'
-import Questions from './pages/Questions'
-import Consultation from './pages/Consultation'
-import Footer from './components/Footer'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home/main';
+import Contact from './pages/Contact/main';
+import InternationalPrograms from './pages/Programs/InternationalProgram/main'
+import SpecializedCourses from './pages/Programs/SpecializedCourses/main'
+import IslamicFinance from './pages/Programs/IslamicFinance/main';
+import Certification from './pages/Programs/Certification/main';
+
 
 const App = () => {
   return (
-    <>
-      <Navbar/>
-      <Hero/>
-      <Services/>
-      <Team/>
-      <Partners/>
-      <Media/>
-      <Testimonial/>
-      <Questions/>
-      <Consultation/>
-      <Footer/>
-    
-    </>
-  )
-}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Navbar />
+              <Home />
+              <Footer />
+            </>
+          }
+        />
+        <Route 
+          path="/contact" 
+          element=  {
+            <>
+            <Navbar/>
+            <Contact/>
+            <Footer/>
+            </>
+          } 
+        />
+        <Route 
+          path="/InternationalPrograms" 
+          element=  {
+            <>
+            <Navbar/>
+            <InternationalPrograms/>
+            <Footer/>
+            </>
+          } 
+        />
+        <Route 
+          path="/SpecializedCourses" 
+          element=  {
+            <>
+            <Navbar/>
+            <SpecializedCourses/>
+            <Footer/>
+            </>
+          } 
+        />
+          <Route 
+          path="/IslamicFinance" 
+          element=  {
+            <>
+            <Navbar/>
+            <IslamicFinance/>
+            <Footer/>
+            </>
+          } 
+        />
+          <Route 
+          path="/Certification" 
+          element=  {
+            <>
+            <Navbar/>
+            <Certification/>
+            <Footer/>
+            </>
+          } 
+        />
+      </Routes>
+  );
+};
 
-export default App
+export default App;
