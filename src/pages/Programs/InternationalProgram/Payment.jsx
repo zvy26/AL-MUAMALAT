@@ -64,7 +64,7 @@ const Payment = () => {
             <span className='font-normal text-[15px] md:text-[18px] leading-[100%] tracking-[-0.02em]'>UK certification upon completion</span>
           </div>
           <div className='flex items-center'>
-            <Circle className="w-3 h-3  mr-2" />
+            <Circle className="w-3 h-3  mr-2 fill-teal-600 text-teal-600" />
             <span className='font-normal text-[15px] md:text-[18px] leading-[100%] tracking-[-0.02em]'>Personalized one-to-one training</span>
           </div>
         </div>

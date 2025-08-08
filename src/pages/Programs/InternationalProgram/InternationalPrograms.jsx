@@ -48,7 +48,7 @@ export default function InternationalProgram() {
         </div>
 
         <div className="bg-sky-50 p-8 rounded-lg">
-          <h2 className="text-3xl font-bold mb-8 text-center">Why should you study at &quot;AL-MUAMALAT&quot;?</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">Why should you study at<br/> &quot;AL-MUAMALAT&quot;?</h2>
           <ul className="space-y-6 list-disc pl-5">
             {whyStudy.map((item, index) => (
               <li key={index} className="text-lg font-semibold text-gray-700 leading-relaxed">

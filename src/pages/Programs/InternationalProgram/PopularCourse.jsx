@@ -10,7 +10,7 @@ export default function PopularCourse() {
     {
       image: Course1, 
       category: 'Design',
-      description: 'Various versions have  evolve',
+      description: 'Various versions have  evolve . . .',
       rating: 5,
       reviews: 342,
       price: 500,
@@ -18,7 +18,7 @@ export default function PopularCourse() {
     {
       image: Course2,
       category: 'Business',
-      description: 'Various versions have  evolve',
+      description: 'Various versions have  evolve . . .',
       rating: 5,
       reviews: 189,
       price: 500,
@@ -26,7 +26,7 @@ export default function PopularCourse() {
     {
       image: Course3,
       category: 'Business',
-      description: 'Various versions have  evolve',
+      description: 'Various versions have  evolve . . .',
       rating: 4,
       reviews: 256,
       price: 500,
@@ -34,7 +34,7 @@ export default function PopularCourse() {
     {
       image: Course1, 
       category: 'Marketing',
-      description: 'Various versions have  evolve',
+      description: 'Various versions have  evolve . . .',
       rating: 5,
       reviews: 423,
       price: 500,
@@ -42,7 +42,7 @@ export default function PopularCourse() {
     {
       image: Course2, 
       category: 'Finance',
-      description: 'Various versions have  evolve',
+      description: 'Various versions have  evolve . . .',
       rating: 4,
       reviews: 167,
       price: 500,

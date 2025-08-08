@@ -7,6 +7,10 @@ import InternationalPrograms from './pages/Programs/InternationalProgram/main'
 import SpecializedCourses from './pages/Programs/SpecializedCourses/main'
 import IslamicFinance from './pages/Programs/IslamicFinance/main';
 import Certification from './pages/Programs/Certification/main';
+import SignIn from  './pages/AuthPage/Login/main'
+import Register from  './pages/AuthPage/Register/main'
+
+
 
 
 const App = () => {
@@ -72,6 +76,23 @@ const App = () => {
             </>
           } 
         />
+          <Route 
+          path="/Login" 
+          element=  {
+            <>
+          <SignIn/>
+            </>
+          } 
+        />
+        <Route 
+          path="/Register" 
+          element=  {
+            <>
+          <Register/>
+            </>
+          } 
+        />
+
       </Routes>
   );
 };
